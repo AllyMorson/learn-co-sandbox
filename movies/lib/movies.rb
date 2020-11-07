@@ -1,6 +1,6 @@
-require "soulfood_recipes/version"
+require "movies/version"
 
-module SoulfoodRecipes
+module Movies
   class Error < StandardError; end
   # Your code goes here...
 end

@@ -1,18 +1,17 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "soulfood_recipes/version"
+require "movies/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "soulfood_recipes"
-  spec.version       = SoulfoodRecipes::VERSION
+  spec.name          = "movies"
+  spec.version       = Movies::VERSION
   spec.authors       = ["'Ally Morson'"]
   spec.email         = ["'ally.morson@gmail.com'"]
 
   spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
   spec.description   = %q{TODO: Write a longer description or delete this line.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
-  spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
